@@ -1,5 +1,5 @@
 {
-    "name": "thundra-trace-chart",
+    "name": "thundra-trace-chart-css",
     "version": "1.1.1",
     "description": "thundra-trace-chart react component",
     "main": "lib/index.js",
