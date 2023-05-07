@@ -1,14 +1,14 @@
 .ttc-wrapper {
     overflow: auto;
-    font-family: 'Inter';
-    background-color: #0e1216;
-    color: #dcdfe5;
+    font-family: -apple-system;
+    background-color: #fff;
+    color: #333;
 }
 .ttc-wrapper .timeline-span:hover {
-    background: #161b22;
+    background: #ccc;
 }
 .ttc-wrapper .timeline-span.selected-span {
-    background: #161b22;
+    background: #eee;
 }
 .ttc-wrapper .timeline-span.insignificant-span {
     opacity: 0.3;

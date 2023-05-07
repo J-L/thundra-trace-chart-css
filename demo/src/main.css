@@ -1,17 +1,14 @@
 .demo-wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh; // vh is better to use.
-
-    .top-part {
-        height: 150px;
-
-        button.selected {
-            background-color: lightgreen;
-        }
-    }
-
-    .trace-chart-part {
-        height: calc(100vh- 150px);
-    }
+    height: 100vh;
+}
+.demo-wrapper .top-part {
+    height: 150px;
+}
+.demo-wrapper .top-part button.selected {
+    background-color: lightgreen;
+}
+.demo-wrapper .trace-chart-part {
+    height: calc(100vh- 150px);
 }

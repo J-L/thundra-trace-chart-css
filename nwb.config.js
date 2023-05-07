@@ -14,21 +14,8 @@ module.exports = {
       babel: {
         test: /\.jsx?/,
       },
-      sass: {
-        modules: true,
-        localIdentName: '[hash:base64:5]',
-      },
     },
     styles: {
-      sass: [
-        {
-          sass: {
-            modules: true,
-            localIdentName: '[hash:base64:5]',
-            sourceMap: false,
-          },
-        },
-      ],
     },
     terser: {
       terserOptions: {
@@ -39,7 +26,7 @@ module.exports = {
     },
     extra: {
       resolve: {
-        extensions: ['.js', '.jsx', '.json', '.scss'],
+        extensions: ['.js', '.jsx', '.json', '.css'],
       },
       node: {
         process: false,
