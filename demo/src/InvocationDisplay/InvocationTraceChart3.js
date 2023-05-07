@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './InvocationTraceChart.scss';
+import './InvocationTraceChart.css';
 import ThundraTraceChart from '../../../src';
 import { getInvocationData, getInvocationDataDetails } from './InvocationSampleTrace';
 

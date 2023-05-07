@@ -5,7 +5,7 @@ import Timeline from './Timeline';
 import MiniTraceViewer from './MiniTraceViewer';
 
 import { detailedTraceSummaryPropTypes } from './prop-types';
-import '../css/main.scss';
+import '../css/main.css';
 
 const propTypes = {
   traceId: PropTypes.string.isRequired /* From url parameter */,

@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { InvocationTraceChart } from './InvocationDisplay/InvocationTraceChart';
 import { InvocationTraceChartFocus } from './InvocationDisplay/InvocationTraceChart2';
 import { InvocationTraceChartHighlight } from './InvocationDisplay/InvocationTraceChart3';
-import './main.scss';
+import './main.css';
 import { JobProcessTraceChart } from './ProcessDisplay/ProcessTraceChart';
 import { WorkflowJobStepTraceChart } from './WorkflowJobStepDisplay/WorkflowJobStepTraceChart';
 

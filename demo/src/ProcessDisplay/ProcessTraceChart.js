@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ProcessTraceChart.scss';
+import './ProcessTraceChart.css';
 import ThundraTraceChart from '../../../src';
 import { getProcessSampleTraceData, getProcessSampleTraceDataDetails } from './ProcessSampleTrace';
 

@@ -1,0 +1,6 @@
+.ttc-wrapper {
+  overflow: auto;
+}
+.ttc-wrapper .erroneous-span {
+  background-color: darkred !important;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './WorkflowJobStepTraceChart.scss';
+import './WorkflowJobStepTraceChart.css';
 import ThundraTraceChart from '../../../src';
 import {} from './WorkflowJobStepTraceChart';
 import { getWorkflowJobStepData, getWorkflowJobStepDataDetails } from './WorkflowJobStepSampleTrace';
